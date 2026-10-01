@@ -1,0 +1,26 @@
+FRAGOLA - CUATRO PAGINAS CON CSS COMPARTIDO
+
+Extrae el ZIP y abre index.html.
+Los cuatro HTML y style.css van en la misma carpeta. El logo va en img/logo-fragola.png.
+Se unificaron los enlaces que antes apuntaban a css/style.css.
+
+CONTENIDO
+- index.html: pagina principal, con ajustes para mostrar tarjetas sin fotos.
+- catalogo.html: 19 productos conservados del archivo entregado. Los enlaces Consultar llevan al formulario; no hay carrito ni ordenes automaticas.
+- sobreNosotros.html: historia, mision, vision, valores y equipo. Se conservaron los textos pendientes entre corchetes; deben completarse con datos del negocio.
+- contacto.html: formulario y sucursales. El envio sigue deshabilitado hasta conectar un servicio real.
+- style.css: CSS compartido. Secciones 8-11 contienen la integracion nueva.
+
+FOTOS
+Solo se conserva el logo recibido. Las fotografias provisionales y la ilustracion de portada se sustituyeron por comentarios con el formato solicitado:
+<!-- charlie nos tiene que dar las fotos luego - tema de la foto -->
+No se cargan imagenes de servicios externos ni se muestran espacios con imagenes rotas.
+Al recibir las fotos, insertar las etiquetas img en los comentarios y adaptar sus contenedores cuando corresponda.
+
+TECNICAS
+Se mantiene Flexbox con flex-wrap, variables, selectores, posicionamiento, modelo de caja y transiciones sencillas. Aunque una clase se llama catalogo__grid, usa display: flex.
+Las fuentes se cargan desde Google Fonts; necesitan internet.
+
+REVISION
+Se comprobaron enlaces entre paginas, anclas, imagen del logo, etiquetas de formulario y conservacion de productos y precios. La revision visual en navegador queda pendiente.
+Los datos comerciales provienen de los HTML entregados y deben confirmarse con el emprendimiento antes de publicar.
